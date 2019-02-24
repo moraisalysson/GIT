@@ -1,8 +1,8 @@
 # Anotações: comandos básicos do Git
 
 <p align="center">
-  <a href="https://pixabay.com/pt/papel-bagun%C3%A7ado-notas-abstract-3033204.jpg/" target="_blank" >
-    <img alt="Notes" src="C:\Users\alyss\Desktop\git-learning\github-git\pixabay-paper-3033204_640.jpg" width="400" />
+  <a href="https://pixabay.com/pt/papel-bagun%C3%A7ado-notas-abstract-3033204/" target="_blank" >
+    <img alt="Notes" src="pixabay-paper-3033204_640.jpg" width="400" />
   </a>
 </p>
 
