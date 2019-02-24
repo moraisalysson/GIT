@@ -1,2 +1,2 @@
 # git-learning
-Tests
+Tests and learning
