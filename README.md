@@ -154,6 +154,39 @@ $ git push origin master
 $ git pull origin master
 ```
 	
+## Contribuição em outros projetos no GitHub
+
+- Fork
+	
+	Clone do repositório que você quer contribuir.
+
+	1. No GitHub, acessar o repositório que deseja colaborar e clicar em FORK.
+
+	2. No repositório "forkado", procurar o link para clonar.
+
+	3. Git Bash da sua máquina:
+
+	``` bash
+	$ git clone enderecoRepositorioGit (nomeRepositorioLocal "opcional")
+	```
+
+	4. O repositório será clonado para o seu computador e já podem ser realizadas as contribuições.
+
+	5. Realizar os ADD e os COMMITS necessários.
+
+	6. Realizar o GIT PUSH ORIGIN MASTER para subir as alterações para o seu respositório no GitHub.
+
+
+
+- Pull Request
+
+	Envio das suas contribuições para serem analisadas pelo autor do projeto.
+
+	1. No seu perfil do GitHub, no repositório "forkado", clicar em Pull Request e confirmar.
+
+	2. No perfil do projeto destino da colaboração: clicar em Pull Request e, se aceito, realizar o MERGE PULL REQUEST.
+
+
 ## Outros
 
 - Limpar a tela
