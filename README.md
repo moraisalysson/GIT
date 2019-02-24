@@ -119,6 +119,7 @@ Verificar a(s) linha(s) onde ocorre o conflito e resolvê-lo manualmente.
 ## Conexão com o GitHub
 
 - Gerar a keygen
+
 	Deixar sem senha, caso contrário, será necessário informá-la a cada push/pull
 	Entrar na pasta onde estão as chaves e abrir o .pub. É neste arquivo que encontra-se a chave.
 	GitHub: acessar settings -> SSH and GPG Keys -> New SSH key -> colar a key no local apropriado
