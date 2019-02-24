@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://pixabay.com/pt/papel-bagun%C3%A7ado-notas-abstract-3033204/" target="_blank" >
-    <img alt="Notes" src="pixabay-paper-3033204_640.jpg" width="400" />
+    <img alt="Notes" src="https://cdn.pixabay.com/photo/2017/12/22/08/01/paper-3033204_960_720.jpg" width="400" />
   </a>
 </p>
 
