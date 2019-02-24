@@ -119,33 +119,41 @@ Verificar a(s) linha(s) onde ocorre o conflito e resolvê-lo manualmente.
 ## Conexão com o GitHub
 
 - Gerar a keygen
-
-``` bash
-$ ssh-keygen
-```
 	1.1 deixar sem senha, caso contrário, será necessário informá-la a cada push/pull
 	1.2 entrar na pasta onde estão as chaves e abrir o .pub. É neste arquivo que encontra-se a chave.
 	1.3 no GitHub: acessar settings -> SSH and GPG Keys -> New SSH key -> colar a key no local apropriado
 
+``` bash
+$ ssh-keygen
+```
+
+
 - Clonar o repositório do GitHub (faz o download dos arquivos para uma pasta local)
+	
+	O link para clone está disponível em cada repositório no GitHub
 
 ``` bash
-$ git clone enderecoRepositorioGit (nomeRepositorioLocal "opcional") :
+$ git clone enderecoRepositorioGit (nomeRepositorioLocal "opcional")
 ```
- 	O link para clone está disponível em cada repositório no GitHub
+ 	
 
 - Push (envio) dos arquivos commitados para o GitHub
+
+	Obs: verificar se estais no repositório correto antes de fazer o push
 
 ``` bash
 $ git push origin master
 ```
-	Obs: verificar se estais no repositório correto antes de fazer o push
+	
 
 - Pull (pega) dos arquivos commitados no GitHub
+
+Obs: verificar se estais no repositório correto antes de fazer o pull
+
 ``` bash
 $ git pull origin master
 ```
-	Obs: verificar se estais no repositório correto antes de fazer o pull
+	
 
 ## Outros
 
