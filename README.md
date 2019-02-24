@@ -113,27 +113,43 @@ $ git merge branchFonteArquivos
 $ git branch
 ```
 
-conflitos entre branchs 
-verificar a linha onde há conflito no arquivo e commitar com o conflito resolvido manualmente
-
-## Outros
-- Limpa a tela
-``` bash
-$ clear
-```
+- Conflitos entre branchs 
+Verificar a(s) linha(s) onde ocorre o conflito e resolvê-lo manualmente.
 
 ## Conexão com o GitHub
 
-$ ssh-keygen : gera a key
-	- deixar sem senha
-	- abrir a pasta onde estão as chaves e abrir o .pub
-	- no github: acessar settings -> SSH Keys -> colar a key no local apropriado
+- Gerar a keygen
 
-$ git clone enderecoRepositorioGit (nomeRepositorioLocal "opcional") : clona o repositório do github
- 	- o link para clone é disponibilizado no github
+``` bash
+$ ssh-keygen
+```
+	1.1 deixar sem senha, caso contrário, será necessário informá-la a cada push/pull
+	1.2 entrar na pasta onde estão as chaves e abrir o .pub. É neste arquivo que encontra-se a chave.
+	1.3 no GitHub: acessar settings -> SSH and GPG Keys -> New SSH key -> colar a key no local apropriado
 
-$ git push origin master : enviar os arquivos comitados para o github
-	- verificar se está no repositório correto antes de enviar
+- Clonar o repositório do GitHub (faz o download dos arquivos para uma pasta local)
 
-$ git pull origin master : pegar os arquivos comitados no github
-	- verificar se está no repositório correto antes de fazer o comando
+``` bash
+$ git clone enderecoRepositorioGit (nomeRepositorioLocal "opcional") :
+```
+ 	O link para clone está disponível em cada repositório no GitHub
+
+- Push (envio) dos arquivos commitados para o GitHub
+
+``` bash
+$ git push origin master
+```
+	Obs: verificar se estais no repositório correto antes de fazer o push
+
+- Pull (pega) dos arquivos commitados no GitHub
+``` bash
+$ git pull origin master
+```
+	Obs: verificar se estais no repositório correto antes de fazer o pull
+
+## Outros
+
+- Limpar a tela
+``` bash
+$ clear
+```
