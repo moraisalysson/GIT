@@ -121,7 +121,9 @@ Verificar a(s) linha(s) onde ocorre o conflito e resolvê-lo manualmente.
 - Gerar a keygen
 
 	Deixar sem senha, caso contrário, será necessário informá-la a cada push/pull
+
 	Entrar na pasta onde estão as chaves e abrir o .pub. É neste arquivo que encontra-se a chave.
+	
 	GitHub: acessar settings -> SSH and GPG Keys -> New SSH key -> colar a key no local apropriado
 
 ``` bash
@@ -136,7 +138,6 @@ $ ssh-keygen
 $ git clone enderecoRepositorioGit (nomeRepositorioLocal "opcional")
 ```
  	
-
 - Push (envio) dos arquivos commitados para o GitHub
 
 	Obs: verificar se estais no repositório correto antes de fazer o push
@@ -145,7 +146,6 @@ $ git clone enderecoRepositorioGit (nomeRepositorioLocal "opcional")
 $ git push origin master
 ```
 	
-
 - Pull (pega) dos arquivos commitados no GitHub
 
 	Obs: verificar se estais no repositório correto antes de fazer o pull
@@ -154,10 +154,10 @@ $ git push origin master
 $ git pull origin master
 ```
 	
-
 ## Outros
 
 - Limpar a tela
+
 ``` bash
 $ clear
 ```
