@@ -118,6 +118,11 @@ Verificar a(s) linha(s) onde ocorre o conflito e resolvê-lo manualmente.
 
 ## Conexão com o GitHub
 
+- Fazer link remoto
+``` bash
+$ git remote add origin enderecoRepositorioGit
+```
+
 - Gerar a keygen
 
 	Deixar sem senha, caso contrário, será necessário informá-la a cada push/pull
